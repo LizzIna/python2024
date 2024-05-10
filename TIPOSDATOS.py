@@ -18,6 +18,4 @@ salida = print(institucion * 4)
 #UTILIZANDO LA FUNCION SPLIT
 print(institucion.split())
 
-print(asignatura.__len__())
-
 print(len(asignatura))
