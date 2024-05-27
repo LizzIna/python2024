@@ -31,9 +31,26 @@ print(bool(1))
 
 #LISTAS
 
-ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi"]
+ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi", "Castro"]
 varios = ["Nicolas", 20, True]
 
 list()
 print(type(ciudades))
 print(ciudades)
+
+print(len(ciudades)) #cuenta la cantidad de elementos de una lista
+
+print(ciudades.count("Castro")) #cuenta la cantidad de ocurrencias de una lista
+
+#Impre4sion de un elemnto en especifico de una lista
+print(ciudades[3])
+
+
+#5. DUPLAS
+
+basica = tuple()
+generos = ("rock", "Blues", "Pop")
+print(generos)
+print(type(generos))
+
+print(generos[2])
