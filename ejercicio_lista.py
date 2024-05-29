@@ -3,3 +3,4 @@ listnum2 = list(range(11))
 
 print(listnum) #impresion con lista normal
 print(listnum2) #Impresion con rango
+
