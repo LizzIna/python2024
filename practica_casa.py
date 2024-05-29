@@ -54,3 +54,13 @@ suma()
 
 print("Entonces la suma entre 5 y 7 es de:")
 suma()
+
+#FUNCION PARA REPETIR FORMATO CON DIFERENTES VARIABLES.
+def sum(nume1, nume2):
+        print(nume1+nume2)
+sum(5,7)
+
+print("veamos si vuelve a repetirse pero con distintos numeros")
+
+sum(3,6)
+sum(38, 358)
