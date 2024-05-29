@@ -4,7 +4,7 @@ c1=int(input("Ingrese la cantidad que queda del primer producto"))
 
 l1=len(d1) < 40
 d1_mayu=d1.upper()
-n_d1= ' '.join(d1_mayu.split())
+n_d1= "patata ",' '.join(d1_mayu.split)
 
 print(f"\nLa descripcion del primer producto es {d1}")
 print(f"La descripcion del primer producto en mayusculas es {d1_mayu}")
