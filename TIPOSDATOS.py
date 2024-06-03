@@ -40,7 +40,7 @@ listn2 = list(range(1,1001,10)) #Crea una lista que cominece desde el 1 hasta el
 print(listn2)
 
 
-#Impre4sion de un elemnto en especifico de una lista
+#Impresion de un elemnto en especifico de una lista
 print(ciudades[3])
 
 ciudades[0] = "Quemchi" #Otorga una nueva posicion a un elemento de la lista.
