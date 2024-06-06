@@ -105,3 +105,19 @@ print(paciente["nombre"])
 
 #Actualizar dicccinarios
 paciente.update()
+
+#Map
+n = [1, 2, 3, 4, 5]
+nt = list(map(str,n))
+print(f"La lista de numeros como string {", ".join(nt)}")
+
+#filter
+r = ["Programación", "Taller", "Matemáticas", "Física", "Inglés"]
+l = list(filter(lambda x: len(x) > 7, r))
+print(l)
+
+#Zip.    Queda con solo la cantidad elementos que tengan en comun
+a = [1,2,3,4]
+b = ["A", "B", "C", "D"]
+com = list(zip(a,b)) 
+print(com)
