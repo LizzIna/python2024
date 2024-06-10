@@ -18,7 +18,8 @@ p3 = int(input("\nIngrese el día del tercer producto: ")), int(input("Ingrese e
 
 fv = (p1, p2, p3)
 
-of = print(sorted(fv))
+of = (sorted(fv))
+print(of)
 
 #Ejercicio 3
 aves = {"Aguila", "Pato", "Canario"}
