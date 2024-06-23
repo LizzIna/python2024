@@ -1,11 +1,20 @@
 #1
-tex = """La Universidad de los Lagos es una institucion estatal fundada en 1993. Esta universidad regional 
-entrega una contribucion significativa al desarrollo sostenible del territorio. Como Universidad sus 
-pilares fundamentales se basan en la inclusion, pluralismo, conciencia ambiental y participacion
-democratica."""
-tex = tex.lower()
-ctex = tex.count("universidad")
+#Texto
+span = """La Universidad de los Lagos es una institución estatal fundada en 1993.
+Esta universidad regional entrega una contribución significativa al desarrollo sostenible del territorio.
+Como Universidad sus pilares fundamentales se basan en la inclusión, pluralismo, conciencia ambiental y participación democrática."""
+#Manejar el texto
+texto = span.lower()
+Buscar = "universidad"
+txt = span.split()
+txt_min = texto.split()
 
-tuplatex = ("universidad",) * ctex
-print(f"La cantidad de veces que se repite la palabra 'universidad' son {ctex} veces")
-print(f"La palabra encontrada es: '{tuplatex}'")
+#Buscar y guardar
+lista = []
+
+for text1, text2 in zip(txt, txt_min):
+    if text2 == Buscar:
+        lista.append(text1)
+
+tupla = tuple(lista)
+print(tupla)
